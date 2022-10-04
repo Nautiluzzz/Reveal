@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100&display=swap');
+
+body {
+    background-color: #ffffff;
+    color: #0f141e;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body hr {
+    border: none;
+    background-color: rgb(236, 236, 236);
+    height: 1px;
+}
+
+.contacts {
+    text-decoration: none;
+    outline: none;
+    margin-left: 100px;
+}
+
+    .contacts A:link { 
+    text-decoration: none;
+    color: #000;
+    } 
+
+    .contacts A:visited {
+    text-decoration: none;
+    color: #000;
+    } 
+    .contacts A:active {
+    text-decoration: none;
+    }
+    .contacts A:hover {
+    color: rgb(101, 204, 170);
+    }
+
+.social { 
+    float: right;
+    margin-right: 100px;
+
+}
+
+.icon {
+    width: 15px;
+}
+
+.index {
+    font-size: 48px;
+    color: darkblue;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.indexColor {
+    color: rgb(101, 204, 170);
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    opacity: 20%;
+}
+
+.container {
+    font-size: 4vw;
+    white-space: nowrap;
+    color: darkblue;
+    position: relative;
+    text-align: center;
+}
+
+.tagline {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.GS {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    background-color: darkblue;
+    border: solid darkblue;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+}
+
+.OP {
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    background-color: rgb(101, 204, 170);
+    border: solid rgb(101, 204, 170);
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    font-size: 3vw;
+}
+
+.OP:hover {
+    background-color: rgba(101, 204, 170, 0);
+    color:rgb(101, 204, 170);
+    cursor: pointer;
+    border: solid;
+  }
+
+  .GS:hover {
+    background-color: rgba(0, 0, 139, 0);
+    color:darkblue;
+    cursor: pointer;
+    border: solid;
+  }
+
+  .about {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .essence {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .essence p {
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  h3 {
+    color: darkblue;
+    font-size: 36px;
+  }
+
+  li {
+    list-style-image: url("sources/check.png");
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
